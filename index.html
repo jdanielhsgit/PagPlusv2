@@ -1,11 +1,418 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document uno</title>
+    <title>Xenti - El Poder de la Tecnología a Favor de su Empresa</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
+    <!-- HEADER / NAVIGATION -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#home">
+                    <img src="https://via.placeholder.com/150x50/333/fff?text=XENTI" alt="Logo Xenti" height="40">
+                </a>
+                
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#empresa">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#soluciones">Soluciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#framework">Framework</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#alianzas">Alianzas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center hero-content">
+                    <h1 class="display-3 fw-bold mb-4 animate-fade-in">
+                        Xenti, el Poder de la Tecnología a Favor de su Empresa
+                    </h1>
+                    <p class="lead mb-5 animate-fade-in-delay">
+                        Fortalecemos su negocio con las mejores soluciones y productos en Tecnologías de Información
+                    </p>
+                    <a href="#empresa" class="btn btn-primary btn-lg animate-fade-in-delay-2">
+                        Conocer Más <i class="bi bi-arrow-down-circle ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMPRESA SECTION -->
+    <section id="empresa" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold mb-4">Somos Expertos en Tecnologías de Información</h2>
+                    <p class="lead text-muted">
+                        Por más de dos décadas hemos fortalecido departamentos de TI de múltiples compañías y negocios, 
+                        brindándoles soluciones de alto valor que les ayuda optimizar su tecnología, generando ahorro 
+                        e impulsando un crecimiento sostenido.
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://via.placeholder.com/500x400/007bff/ffffff?text=Tecnologia+TI" 
+                         alt="Tecnologías de Información" 
+                         class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUCIONES SECTION -->
+    <section id="soluciones" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Soluciones de Valor para su Empresa</h2>
+                <div class="title-divider mx-auto"></div>
+            </div>
+            
+            <!-- Grid de Soluciones -->
+            <div class="row g-4">
+                
+                <!-- Consultoría -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="solution-card h-100">
+                        <div class="solution-icon">
+                            <i class="bi bi-clipboard-data"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Consultoría</h3>
+                        <p class="text-muted">
+                            Le ayudamos a tomar las mejores decisiones en sus inversiones en Tecnologías de Información, 
+                            a través de nuestros expertos con más de 20 años de experiencia.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Infraestructura -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="solution-card h-100">
+                        <div class="solution-icon">
+                            <i class="bi bi-diagram-3"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Infraestructura</h3>
+                        <p class="text-muted">
+                            Le proveemos e implementamos la tecnología más adecuada para que su infraestructura en 
+                            Tecnologías de Información opere óptima y eficazmente.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Licencias -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="solution-card h-100">
+                        <div class="solution-icon">
+                            <i class="bi bi-key"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Licencias</h3>
+                        <p class="text-muted">
+                            Le generamos ahorro en su licenciamiento evitando costos de software no requerido, 
+                            manejo de vencimientos, ayudándoles a optimizar sus servicios SaaS y el ciclo de vida del software.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Arrendamiento -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="solution-card h-100">
+                        <div class="solution-icon">
+                            <i class="bi bi-cash-stack"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Arrendamiento</h3>
+                        <p class="text-muted">
+                            Le ofrecemos opciones financieras que le permitirán una mejor aplicación de sus recursos.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Nube -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="solution-card h-100">
+                        <div class="solution-icon">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Nube</h3>
+                        <p class="text-muted">
+                            Le ayudamos a definir la estrategia más adecuada para satisfacer las necesidades de su negocio.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Soporte -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="solution-card h-100">
+                        <div class="solution-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Soporte</h3>
+                        <p class="text-muted">
+                            Contamos con personal técnico altamente capacitado que le asegurarán proyectos exitosos.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION SECTION -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+                    <h2 class="display-6 fw-bold text-white mb-3">
+                        Una extensión de valor a su departamento TI
+                    </h2>
+                    <p class="lead text-white-50">
+                        Xenti, la extensión de su departamento de TI que le ayuda a fortalecer, ahorrar y mantener 
+                        actualizada su tecnología para que su negocio fluya y siga creciendo sin límites.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <a href="#contacto" class="btn btn-light btn-lg">
+                        Contáctenos <i class="bi bi-envelope ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BUSINESS FRAMEWORK SECTION -->
+    <section id="framework" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">BUSINESS FRAMEWORK</h2>
+                <div class="title-divider mx-auto"></div>
+            </div>
+
+            <div class="row g-4">
+                
+                <!-- Infrastructure Solutions -->
+                <div class="col-lg-4">
+                    <div class="framework-card">
+                        <h3 class="h5 fw-bold text-primary mb-4">Infrastructure Solutions</h3>
+                        <ul class="list-unstyled framework-list">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Servers / Storage</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Personal Computing</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> DRP/Hot Site</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Upgrades/Parts</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> HW Maintenance</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Warranty Extensions</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Short-time Leasing</li>
+                        </ul>
+                        <div class="mt-4 pt-3 border-top">
+                            <h4 class="h6 fw-bold text-dark mb-3">IBM Power Systems</h4>
+                            <ul class="list-unstyled framework-list small">
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> IBM AS/400</li>
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> IBM Storage</li>
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> IBM Tapes Units</li>
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> SAN Switches</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Licensing Management -->
+                <div class="col-lg-4">
+                    <div class="framework-card">
+                        <h3 class="h5 fw-bold text-primary mb-4">Licensing Management</h3>
+                        <ul class="list-unstyled framework-list">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Key Mgmt</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Software Licensing</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> SW Maintenance & Support Renewal</li>
+                        </ul>
+                        <div class="mt-4 pt-3 border-top">
+                            <h4 class="h6 fw-bold text-dark mb-3">General Solutions</h4>
+                            <ul class="list-unstyled framework-list small">
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> Compliance Tools</li>
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> Backup & Recovery</li>
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> SaaS Solutions</li>
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> Virtualization</li>
+                                <li><i class="bi bi-chevron-right text-primary me-2"></i> Collaboration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specialized Solutions -->
+                <div class="col-lg-4">
+                    <div class="framework-card">
+                        <h3 class="h5 fw-bold text-primary mb-4">Specialized Solutions</h3>
+                        <ul class="list-unstyled framework-list">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> End Point Mgmt</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> High Availability</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Cloud Backup</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> IBM Artificial Intelligence</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ALIANZAS SECTION -->
+    <section id="alianzas" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Alianzas</h2>
+                <div class="title-divider mx-auto"></div>
+            </div>
+            
+            <!-- Grid de Logos de Marcas - Placeholder -->
+            <div class="row g-4 align-items-center justify-content-center">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/150x80/f8f9fa/333?text=IBM" alt="Partner" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/150x80/f8f9fa/333?text=Microsoft" alt="Partner" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/150x80/f8f9fa/333?text=Dell" alt="Partner" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/150x80/f8f9fa/333?text=HP" alt="Partner" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/150x80/f8f9fa/333?text=Cisco" alt="Partner" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/150x80/f8f9fa/333?text=VMware" alt="Partner" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO SECTION -->
+    <section id="contacto" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="h3 fw-bold mb-4">Contáctenos</h2>
+                    <p class="mb-4">
+                        Estamos listos para ayudarle a fortalecer su infraestructura de TI. 
+                        Contáctenos para más información sobre nuestros servicios.
+                    </p>
+                    <div class="contact-info">
+                        <div class="mb-3">
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            <a href="tel:+525555555555" class="text-white text-decoration-none">+52 (55) 5555-5555</a>
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-envelope-fill me-2"></i>
+                            <a href="mailto:info@xenti.mx" class="text-white text-decoration-none">info@xenti.mx</a>
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            <span>Ciudad de México, México</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Teléfono">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">
+                            Enviar Mensaje <i class="bi bi-send ms-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-darker text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2024 Xenti. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón Scroll to Top -->
+    <button id="scrollTopBtn" class="scroll-top-btn">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
 </body>
 </html>
