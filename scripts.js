@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
        LOGS DE CONSOLA PARA DEBUGGING
        ========================================== */
     
-    console.log('✅ Xenti - JavaScript cargado correctamente');
+    console.log('✅ PAGplus - JavaScript cargado correctamente');
     console.log('📱 Versión: 1.0.0');
     console.log('🚀 Todas las funcionalidades inicializadas');
     
